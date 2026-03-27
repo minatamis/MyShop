@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\practice\\MyShop\\MyShop\\MyShop.csproj": {}
+    "C:\\repo\\MyShop\\MyShop\\MyShop.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\practice\\MyShop\\MyShop\\MyShop.csproj": {
+    "C:\\repo\\MyShop\\MyShop\\MyShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\practice\\MyShop\\MyShop\\MyShop.csproj",
+        "projectUniqueName": "C:\\repo\\MyShop\\MyShop\\MyShop.csproj",
         "projectName": "MyShop",
-        "projectPath": "C:\\Repos\\practice\\MyShop\\MyShop\\MyShop.csproj",
-        "packagesPath": "C:\\Users\\jemuel.cebuano\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\practice\\MyShop\\MyShop\\obj\\",
+        "projectPath": "C:\\repo\\MyShop\\MyShop\\MyShop.csproj",
+        "packagesPath": "C:\\Users\\Jem\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\MyShop\\MyShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jemuel.cebuano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,9 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://csapps:8082/nuget": {},
-          "http://csapps:8084/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

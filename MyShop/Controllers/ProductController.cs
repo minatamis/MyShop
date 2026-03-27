@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyShop.Models.Base;
-using MyShop.Services.Controllers;
+using MyShop.Services;
 using MyShop.Services.Interface;
 
 namespace MyShop.Controllers
@@ -16,38 +16,79 @@ namespace MyShop.Controllers
         }
         [HttpGet]
         [Route("get-product-list")]
-        public async Task<IActionResult> GetProductList()
+        public async Task<ActionResult<Response<List<Product>>>> GetProductList()
         {
             var productList = await _productService.GetProductList();
-            return Ok(productList);
+            try
+            {
+                if (productList == null)
+                    return NotFound(Response<List<Product>>.Fail);
+                else
+                    return Ok(Response<List<Product>>.Success(productList, "Products Found"));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<List<Product>>.Fail);
+            }
         }
         [HttpGet]
         [Route("get-product")]
-        public async Task<IActionResult> GetProductById(int id)
+        public async Task<ActionResult<Response<Product>>> GetProductById(int id)
         {
             var product = await _productService.GetProductById(id);
-            return Ok(product);
+            try
+            {
+                if (product == null)
+                    return NotFound(Response<Product>.Fail);
+                else
+                    return Ok(Response<Product>.Success(product, "Product Found"));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<Product>.Fail);
+            }
         }
         [HttpPost]
         [Route("add-product")]
-        public async Task<IActionResult> AddProduct(Product product)
+        public async Task<ActionResult<Response<object>>> AddProduct(Product product)
         {
-            await _productService.AddProduct(product);
-            return Ok();
+            try
+            {
+                await _productService.AddProduct(product);
+                return Ok(Response<object>.Success);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<object>.Fail);
+            }
         }
         [HttpPut]
         [Route("edit-product")]
-        public async Task<IActionResult> EditProduct(Product product)
+        public async Task<ActionResult<Response<object>>> EditProduct(Product product)
         {
-            await _productService.EditProduct(product);
-            return Ok();
+            try
+            {
+                await _productService.EditProduct(product);
+                return Ok(Response<object>.Success);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<object>.Fail);
+            }
         }
         [HttpDelete]
         [Route("delete-product")]
-        public async Task<IActionResult> DeleteProduct(int id)
+        public async Task<ActionResult<Response<object>>> DeleteProduct(int id)
         {
-            await _productService.DeleteProduct(id);
-            return Ok();
+            try
+            {
+                await _productService.DeleteProduct(id);
+                return Ok(Response<object>.Success);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<object>.Fail);
+            }
         }
     }
 }

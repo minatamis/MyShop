@@ -1,4 +1,4 @@
-using MyShop.Services.Controllers;
+using MyShop.Services;
 using MyShop.Services.Interface;
 
 var builder = WebApplication.CreateBuilder(args);

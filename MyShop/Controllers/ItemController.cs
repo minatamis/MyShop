@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyShop.Models.Base;
+using MyShop.Services;
 using MyShop.Services.Interface;
 
 namespace MyShop.Controllers
@@ -15,38 +16,79 @@ namespace MyShop.Controllers
         }
         [HttpGet]
         [Route("get-item-list")]
-        public async Task<IActionResult> GetItemList()
+        public async Task<ActionResult<Response<List<Item>>>> GetItemList()
         {
             var itemList = await _itemService.GetItemList();
-            return Ok(itemList);
+            try
+            {
+                if (itemList == null)
+                    return NotFound(Response<List<Item>>.Fail);
+                else
+                    return Ok(Response<List<Item>>.Success(itemList, "Items Found"));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<List<Item>>.Fail);
+            }
         }
         [HttpGet]
         [Route("get-item")]
-        public async Task<IActionResult> GetItemById(int id)
+        public async Task<ActionResult<Response<Item>>> GetItemById(int id)
         {
             var item = await _itemService.GetItemById(id);
-            return Ok(item);
+            try
+            {
+                if (item == null)
+                    return NotFound(Response<Item>.Fail);
+                else
+                    return Ok(Response<Item>.Success(item, "Item Found"));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<Item>.Fail);
+            }
         }
         [HttpPost]
         [Route("add-item")]
         public async Task<IActionResult> AddItem(Item item)
         {
-            await _itemService.AddItem(item);
-            return Ok();
+            try
+            {
+                await _itemService.AddItem(item);
+                return Ok(Response<object>.Success);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<object>.Fail);
+            }
         }
         [HttpPut]
         [Route("edit-item")]
         public async Task<IActionResult> EditItem(Item item)
         {
-            await _itemService.EditItem(item);
-            return Ok();
+            try
+            {
+                await _itemService.EditItem(item);
+                return Ok(Response<object>.Success);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<object>.Fail);
+            }
         }
         [HttpDelete]
         [Route("delete-item")]
         public async Task<IActionResult> DeleteItem(int id)
         {
-            await _itemService.DeleteItem(id);
-            return Ok();
+            try
+            {
+                await _itemService.DeleteItem(id);
+                return Ok(Response<object>.Success);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(Response<object>.Fail);
+            }
         }
     }
 }
