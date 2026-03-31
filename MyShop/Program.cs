@@ -1,5 +1,9 @@
-using MyShop.Services;
-using MyShop.Services.Interface;
+using MyShop.Application.Services;
+using MyShop.Application.Interfaces.IServices;
+using MyShop.Application.Interfaces.IRepositories;
+using MyShop.Infrastructure.Repositories;
+using MyShop.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,10 +16,14 @@ builder.Services.AddOpenApi();
 //builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IStorageService, StorageService>();
+builder.Services.AddScoped<IItemRepository, ItemRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IItemService, ItemService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaulConnection")));
 
 var app = builder.Build();
 

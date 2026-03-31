@@ -1,0 +1,15 @@
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.Application.csproj.AssemblyReference.cache
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.Application.AssemblyInfoInputs.cache
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.Application.AssemblyInfo.cs
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.Application.csproj.CoreCompileInputs.cache
+C:\Repos\practice\MyShop\MyShop.Application\bin\Debug\net10.0\MyShop.Application.deps.json
+C:\Repos\practice\MyShop\MyShop.Application\bin\Debug\net10.0\MyShop.Application.dll
+C:\Repos\practice\MyShop\MyShop.Application\bin\Debug\net10.0\MyShop.Application.pdb
+C:\Repos\practice\MyShop\MyShop.Application\bin\Debug\net10.0\MyShop.Domain.dll
+C:\Repos\practice\MyShop\MyShop.Application\bin\Debug\net10.0\MyShop.Domain.pdb
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.A.D52B9BDA.Up2Date
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.Application.dll
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\refint\MyShop.Application.dll
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\MyShop.Application.pdb
+C:\Repos\practice\MyShop\MyShop.Application\obj\Debug\net10.0\ref\MyShop.Application.dll

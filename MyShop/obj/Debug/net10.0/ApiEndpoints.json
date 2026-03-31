@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "item",
-        "Type": "MyShop.Models.Base.Item",
+        "Type": "MyShop.Domain.Entities.Item",
         "IsRequired": true
       }
     ],
@@ -41,7 +41,7 @@
     "Parameters": [
       {
         "Name": "item",
-        "Type": "MyShop.Models.Base.Item",
+        "Type": "MyShop.Domain.Entities.Item",
         "IsRequired": true
       }
     ],
@@ -63,7 +63,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[MyShop.Models.Base.Item, MyShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[MyShop.Domain.Entities.Item, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -83,7 +83,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Models.Base.Item, MyShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Item, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -103,7 +103,7 @@
     "Parameters": [
       {
         "Name": "order",
-        "Type": "MyShop.Models.Base.Order",
+        "Type": "MyShop.Domain.Entities.Order",
         "IsRequired": true
       }
     ],
@@ -135,7 +135,7 @@
     "Parameters": [
       {
         "Name": "order",
-        "Type": "MyShop.Models.Base.Order",
+        "Type": "MyShop.Domain.Entities.Order",
         "IsRequired": true
       }
     ],
@@ -157,7 +157,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[MyShop.Models.Base.Order, MyShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[MyShop.Domain.Entities.Order, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -177,7 +177,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Models.Base.Order, MyShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Order, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -197,13 +197,13 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "MyShop.Models.Base.Product",
+        "Type": "MyShop.Domain.Entities.Product",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -229,7 +229,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -249,13 +249,13 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "MyShop.Models.Base.Product",
+        "Type": "MyShop.Domain.Entities.Product",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -281,7 +281,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[MyShop.Models.Base.Product, MyShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[MyShop.Domain.Entities.Product, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -301,7 +301,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Models.Base.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Models.Base.Product, MyShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Product, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

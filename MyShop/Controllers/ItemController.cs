@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyShop.Models.Base;
-using MyShop.Services;
-using MyShop.Services.Interface;
+using MyShop.Domain.Entities;
+using MyShop.Application.Interfaces.IServices;
 
 namespace MyShop.Controllers
 {
@@ -55,7 +54,7 @@ namespace MyShop.Controllers
             try
             {
                 await _itemService.AddItem(item);
-                return Ok(Response<object>.Success);
+                return Ok(Response<object>.Success(item, "Item added successfully"));
             }
             catch (Exception ex)
             {
@@ -69,7 +68,7 @@ namespace MyShop.Controllers
             try
             {
                 await _itemService.EditItem(item);
-                return Ok(Response<object>.Success);
+                return Ok(Response<object>.Success(item, "Item edited successfully"));
             }
             catch (Exception ex)
             {
@@ -83,7 +82,7 @@ namespace MyShop.Controllers
             try
             {
                 await _itemService.DeleteItem(id);
-                return Ok(Response<object>.Success);
+                return Ok(Response<object>.Success(id, "Item deleted successfully"));
             }
             catch (Exception ex)
             {

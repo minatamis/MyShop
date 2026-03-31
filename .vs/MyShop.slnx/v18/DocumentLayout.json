@@ -1,77 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\repo\\MyShop\\",
+  "WorkspaceRootPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B451603-0B0D-4DA7-9FA7-2E834999D43F}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop.infrastructure\\myshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B451603-0B0D-4DA7-9FA7-2E834999D43F}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\myshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\models\\base\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2408457-CAC9-4E35-B72A-ADC863A2FB76}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop.application\\myshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2408457-CAC9-4E35-B72A-ADC863A2FB76}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\myshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73EE74F-B57B-40CD-BD91-A4A2EEF66102}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop.domain\\myshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E73EE74F-B57B-40CD-BD91-A4A2EEF66102}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\myshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\interface\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\interface\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\interface\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\interface\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\models\\base\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\models\\base\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\repo\\myshop\\myshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -82,145 +62,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\OrderService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\OrderService.cs",
-              "RelativeToolTip": "MyShop\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:48:35.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IItemService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IItemService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\Interface\\IItemService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IItemService.cs",
-              "RelativeToolTip": "MyShop\\Services\\Interface\\IItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:47:28.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IOrderService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\Interface\\IOrderService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IOrderService.cs",
-              "RelativeToolTip": "MyShop\\Services\\Interface\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:46:27.648Z",
+              "DocumentIndex": 2,
+              "Title": "MyShop.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "RelativeToolTip": "MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-31T00:40:52.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\ProductService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\ProductService.cs",
-              "RelativeToolTip": "MyShop\\Services\\ProductService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowBgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:13:39.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Response.cs",
-              "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Response.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Response.cs",
-              "RelativeToolTip": "MyShop\\Models\\Base\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:04:00.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ItemService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\ItemService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\ItemService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\ItemService.cs",
-              "RelativeToolTip": "MyShop\\Services\\ItemService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T00:59:31.695Z",
+              "Title": "MyShop.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
+              "RelativeDocumentMoniker": "MyShop.Domain\\MyShop.Domain.csproj",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
+              "RelativeToolTip": "MyShop.Domain\\MyShop.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-31T00:40:16.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MyShop.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
+              "RelativeDocumentMoniker": "MyShop.Application\\MyShop.Application.csproj",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
+              "RelativeToolTip": "MyShop.Application\\MyShop.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-31T00:39:21.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Response.cs",
+              "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Response.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Response.cs",
+              "RelativeToolTip": "MyShop\\Models\\Base\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T07:04:00.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "MyShop\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ProductController.cs",
               "RelativeToolTip": "MyShop\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwFoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T01:00:22.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Product.cs",
               "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Product.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Product.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Product.cs",
               "RelativeToolTip": "MyShop\\Models\\Base\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:16:45.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T07:16:45.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "MyShop\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\OrderController.cs",
               "RelativeToolTip": "MyShop\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T01:00:13.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T01:00:13.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Program.cs",
               "RelativeDocumentMoniker": "MyShop\\Program.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Program.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Program.cs",
               "RelativeToolTip": "MyShop\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T00:54:58.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T00:54:58.402Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ItemController.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Controllers\\ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "MyShop\\Controllers\\ItemController.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ItemController.cs",
               "RelativeToolTip": "MyShop\\Controllers\\ItemController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAwwFEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,74 +179,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IProductService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\Interface\\IProductService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IProductService.cs",
-              "RelativeToolTip": "MyShop\\Services\\Interface\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:17:18.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IStorageService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IStorageService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\Interface\\IStorageService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\Interface\\IStorageService.cs",
-              "RelativeToolTip": "MyShop\\Services\\Interface\\IStorageService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:17:00.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StorageService.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Services\\StorageService.cs",
-              "RelativeDocumentMoniker": "MyShop\\Services\\StorageService.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Services\\StorageService.cs",
-              "RelativeToolTip": "MyShop\\Services\\StorageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:16:58.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Order.cs",
               "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Order.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Order.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Order.cs",
               "RelativeToolTip": "MyShop\\Models\\Base\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T07:16:47.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "Item.cs",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Item.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Item.cs",
               "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Item.cs",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\Models\\Base\\Item.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Item.cs",
               "RelativeToolTip": "MyShop\\Models\\Base\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T07:16:48.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.json",
               "RelativeDocumentMoniker": "MyShop\\appsettings.json",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.json",
               "RelativeToolTip": "MyShop\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -304,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\repo\\MyShop\\MyShop\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.Development.json",
               "RelativeDocumentMoniker": "MyShop\\appsettings.Development.json",
-              "ToolTip": "C:\\repo\\MyShop\\MyShop\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.Development.json",
               "RelativeToolTip": "MyShop\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
