@@ -21,13 +21,13 @@ namespace MyShop.Controllers
             try
             {
                 if (productList == null)
-                    return NotFound(Response<List<Product>>.Fail);
+                    return NotFound(Response<List<Product>>.Fail("Product not found"));
                 else
                     return Ok(Response<List<Product>>.Success(productList, "Products Found"));
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<List<Product>>.Fail);
+                return BadRequest(Response<List<Product>>.Fail(ex.ToString()));
             }
         }
         [HttpGet]
@@ -38,13 +38,13 @@ namespace MyShop.Controllers
             try
             {
                 if (product == null)
-                    return NotFound(Response<Product>.Fail);
+                    return NotFound(Response<Product>.Fail("Product not found"));
                 else
                     return Ok(Response<Product>.Success(product, "Product Found"));
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<Product>.Fail);
+                return BadRequest(Response<Product>.Fail(ex.ToString()));
             }
         }
         [HttpPost]
@@ -58,7 +58,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpPut]
@@ -72,7 +72,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpDelete]
@@ -86,7 +86,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
     }

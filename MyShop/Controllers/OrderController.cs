@@ -21,13 +21,13 @@ namespace MyShop.Controllers
             try
             {
                 if (orderList == null)
-                    return NotFound(Response<List<Order>>.Fail);
+                    return NotFound(Response<List<Order>>.Fail("Order not found"));
                 else
                     return Ok(Response<List<Order>>.Success(orderList, "Orders Found"));
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<List<Order>>.Fail);
+                return BadRequest(Response<List<Order>>.Fail(ex.ToString()));
             }
         }
         [HttpGet]
@@ -38,13 +38,13 @@ namespace MyShop.Controllers
             try
             {
                 if (order == null)
-                    return NotFound(Response<Order>.Fail);
+                    return NotFound(Response<Order>.Fail("Order not found"));
                 else
                     return Ok(Response<Order>.Success(order, "Order Found"));
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<Order>.Fail);
+                return BadRequest(Response<Order>.Fail(ex.ToString()));
             }
         }
         [HttpPost]
@@ -58,7 +58,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpPut]
@@ -72,7 +72,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpDelete]
@@ -86,7 +86,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
     }

@@ -21,13 +21,13 @@ namespace MyShop.Controllers
             try
             {
                 if (itemList == null)
-                    return NotFound(Response<List<Item>>.Fail);
+                    return NotFound(Response<List<Item>>.Fail("Item not found"));
                 else
-                    return Ok(Response<List<Item>>.Success(itemList, "Items Found"));
+                    return Ok(Response<List<Item>>.Success(itemList, "Items found"));
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<List<Item>>.Fail);
+                return BadRequest(Response<List<Item>>.Fail(ex.ToString()));
             }
         }
         [HttpGet]
@@ -38,13 +38,13 @@ namespace MyShop.Controllers
             try
             {
                 if (item == null)
-                    return NotFound(Response<Item>.Fail);
+                    return NotFound(Response<Item>.Fail("Item not found"));
                 else
                     return Ok(Response<Item>.Success(item, "Item Found"));
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<Item>.Fail);
+                return BadRequest(Response<Item>.Fail(ex.ToString()));
             }
         }
         [HttpPost]
@@ -58,7 +58,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpPut]
@@ -72,7 +72,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpDelete]
@@ -86,7 +86,7 @@ namespace MyShop.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Response<object>.Fail);
+                return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
     }
