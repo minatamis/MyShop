@@ -166,3 +166,16 @@ C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Work
 C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Repos\practice\MyShop\MyShop\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Elasticsearch.Net.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Formatting.Elasticsearch.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Sinks.Elasticsearch.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Repos\practice\MyShop\MyShop\bin\Debug\net10.0\Serilog.Sinks.PeriodicBatching.dll

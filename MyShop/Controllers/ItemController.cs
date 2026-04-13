@@ -9,9 +9,11 @@ namespace MyShop.Controllers
     public class ItemController : Controller
     {
         private readonly IItemService _itemService;
-        public ItemController(IItemService itemService)
+        private readonly ILogger<ItemController> _logger;
+        public ItemController(IItemService itemService, ILogger<ItemController> logger)
         {
             _itemService = itemService;
+            _logger = logger;
         }
         [HttpGet]
         [Route("get-item-list")]
@@ -21,12 +23,19 @@ namespace MyShop.Controllers
             try
             {
                 if (itemList == null)
+                {
+                    _logger.LogWarning("Items list is null");
                     return NotFound(Response<List<Item>>.Fail("Item not found"));
+                }
                 else
-                    return Ok(Response<List<Item>>.Success(itemList, "Items found"));
+                {
+                    _logger.LogInformation($"{itemList.Count} Items Found");
+                    return Ok(Response<List<Item>>.Success(itemList, "Items Found"));
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching item list");
                 return BadRequest(Response<List<Item>>.Fail(ex.ToString()));
             }
         }
@@ -38,54 +47,67 @@ namespace MyShop.Controllers
             try
             {
                 if (item == null)
+                {
+                    _logger.LogWarning($"Item {id} is null");
                     return NotFound(Response<Item>.Fail("Item not found"));
+                }
                 else
+                {
+                    _logger.LogInformation($"Item {id} is found");
                     return Ok(Response<Item>.Success(item, "Item Found"));
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching item");
                 return BadRequest(Response<Item>.Fail(ex.ToString()));
             }
         }
         [HttpPost]
         [Route("add-item")]
-        public async Task<IActionResult> AddItem(Item item)
+        public async Task<ActionResult<Response<object>>> AddItem(Item item)
         {
             try
             {
                 await _itemService.AddItem(item);
+                _logger.LogInformation($"Item {item.ItemId} successfully created");
                 return Ok(Response<object>.Success(item, "Item added successfully"));
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error creating item");
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpPut]
         [Route("edit-item")]
-        public async Task<IActionResult> EditItem(Item item)
+        public async Task<ActionResult<Response<object>>> EditItem(Item item)
         {
             try
             {
                 await _itemService.EditItem(item);
+                _logger.LogInformation($"Item {item.ItemId} successfully updated");
                 return Ok(Response<object>.Success(item, "Item edited successfully"));
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error updating item");
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
         [HttpDelete]
         [Route("delete-item")]
-        public async Task<IActionResult> DeleteItem(int id)
+        public async Task<ActionResult<Response<object>>> DeleteItem(int id)
         {
             try
             {
                 await _itemService.DeleteItem(id);
+                _logger.LogInformation($"Item {id} successfully deleted");
                 return Ok(Response<object>.Success(id, "Item deleted successfully"));
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error updating item");
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }

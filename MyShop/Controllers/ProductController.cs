@@ -9,9 +9,11 @@ namespace MyShop.Controllers
     public class ProductController : Controller
     {
         private readonly IProductService _productService;
-        public ProductController(IProductService productService)
+        private readonly ILogger<ProductController> _logger;
+        public ProductController(IProductService productService, ILogger<ProductController> logger)
         {
             _productService = productService;
+            _logger = logger;
         }
         [HttpGet]
         [Route("get-product-list")]
@@ -21,12 +23,19 @@ namespace MyShop.Controllers
             try
             {
                 if (productList == null)
+                {
+                    _logger.LogWarning("Products list is null");
                     return NotFound(Response<List<Product>>.Fail("Product not found"));
+                }
                 else
+                {
+                    _logger.LogInformation($"{productList.Count} Products Found");
                     return Ok(Response<List<Product>>.Success(productList, "Products Found"));
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching product list");
                 return BadRequest(Response<List<Product>>.Fail(ex.ToString()));
             }
         }
@@ -38,12 +47,19 @@ namespace MyShop.Controllers
             try
             {
                 if (product == null)
+                {
+                    _logger.LogWarning($"Product {id} is null");
                     return NotFound(Response<Product>.Fail("Product not found"));
+                }
                 else
-                    return Ok(Response<Product>.Success(product, "Product Found"));
+                {
+                    _logger.LogInformation($"Product {id} is found");
+                    return Ok(Response<Product>.Success(product, "Product Found")); 
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching product");
                 return BadRequest(Response<Product>.Fail(ex.ToString()));
             }
         }
@@ -54,10 +70,12 @@ namespace MyShop.Controllers
             try
             {
                 await _productService.AddProduct(product);
+                _logger.LogInformation($"Product {product.ProductId} successfully created");
                 return Ok(Response<object>.Success(product,"Product added successfully"));
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error creating product");
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
@@ -68,10 +86,12 @@ namespace MyShop.Controllers
             try
             {
                 await _productService.EditProduct(product);
+                _logger.LogInformation($"Product {product.ProductId} successfully updated");
                 return Ok(Response<object>.Success(product, "Product edited successfully"));
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error updating product");
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
@@ -82,10 +102,12 @@ namespace MyShop.Controllers
             try
             {
                 await _productService.DeleteProduct(id);
+                _logger.LogInformation($"Product {id} successfully deleted");
                 return Ok(Response<object>.Success(id, "Product deleted successfully"));
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error updating product");
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }

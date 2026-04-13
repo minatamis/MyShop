@@ -1,4 +1,5 @@
-﻿using MyShop.Application.Interfaces.IRepositories;
+﻿using Microsoft.Extensions.Logging;
+using MyShop.Application.Interfaces.IRepositories;
 using MyShop.Application.Interfaces.IServices;
 using MyShop.Domain.Entities;
 
@@ -7,18 +8,23 @@ namespace MyShop.Application.Services
     public class ItemService : IItemService
     {
         private readonly IItemRepository _itemRepository;
-        public ItemService(IItemRepository itemRepository)
+        private readonly ILogger<ItemService> _logger;
+        public ItemService(IItemRepository itemRepository, ILogger<ItemService> logger)
         {
             _itemRepository = itemRepository;
+            _logger = logger;
         }
+
         public async Task<List<Item>> GetItemList()
         {
             try
             {
+                _logger.LogInformation("Items fetching from service");
                 return await _itemRepository.GetItemList();
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching item list");
                 return null;
             }
         }
@@ -26,10 +32,12 @@ namespace MyShop.Application.Services
         {
             try
             {
+                _logger.LogInformation($"Item {id} fetching from service");
                 return await _itemRepository.GetItem(id);
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching item");
                 return null;
             }
         }
@@ -38,10 +46,14 @@ namespace MyShop.Application.Services
             try
             {
                 if (item != null)
+                {
+                    _logger.LogInformation($"Creating item {item.ItemId}");
                     await _itemRepository.AddItem(item);
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error creating item item");
                 throw;
             }
         }
@@ -50,10 +62,14 @@ namespace MyShop.Application.Services
             try
             {
                 if (item != null)
+                {
+                    _logger.LogInformation($"Updating item {item.ItemId}");
                     await _itemRepository.EditItem(item);
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error updating item");
                 throw;
             }
         }
@@ -64,10 +80,14 @@ namespace MyShop.Application.Services
             {
                 var item = await _itemRepository.GetItem(id);
                 if (item != null)
+                {
+                    _logger.LogInformation($"Deleting item {item.ItemId}");
                     await _itemRepository.DeleteItem(item);
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error deleting item");
                 throw;
             }
         }

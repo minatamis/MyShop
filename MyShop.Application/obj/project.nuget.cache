@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jYSQz5GCPcM=",
+  "dgSpecHash": "nYx848YdN6s=",
   "success": true,
   "projectFilePath": "C:\\Repos\\practice\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jemuel.cebuano\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\jemuel.cebuano\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.5\\microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

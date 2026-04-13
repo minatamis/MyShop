@@ -1,25 +1,30 @@
 ﻿using MyShop.Domain.Entities;
 using MyShop.Application.Interfaces.IServices;
 using MyShop.Application.Interfaces.IRepositories;
+using Microsoft.Extensions.Logging;
 
 namespace MyShop.Application.Services
 {
     public class ProductService : IProductService
     {
         private readonly IProductRepository _productRepository;
-        public ProductService(IProductRepository productRepository)
+        private readonly ILogger<ProductService> _logger;
+        public ProductService(IProductRepository productRepository, ILogger<ProductService> logger)
         {
             _productRepository = productRepository;
+            _logger = logger;
         }
 
         public async Task<List<Product>> GetProductList()
         {
             try
             {
+                _logger.LogInformation("Products fetching from service");
                 return await _productRepository.GetProductList();
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching product list");
                 return null;
             }
         }
@@ -27,10 +32,12 @@ namespace MyShop.Application.Services
         {
             try
             {
+                _logger.LogInformation($"Product {id} fetching from service");
                 return await _productRepository.GetProduct(id);
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error fetching product");
                 return null;
             }
         }
@@ -39,10 +46,14 @@ namespace MyShop.Application.Services
             try
             {
                 if(product != null)
+                {
+                    _logger.LogInformation($"Creating product {product.ProductId}");
                     await _productRepository.AddProduct(product);
+                }
             }
             catch(Exception ex)
             {
+                _logger.LogError(ex, "Error creating product product");
                 throw;
             }
         }
@@ -51,10 +62,14 @@ namespace MyShop.Application.Services
             try
             {
                 if (product != null)
+                {
+                    _logger.LogInformation($"Updating product {product.ProductId}");
                     await _productRepository.EditProduct(product);
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error updating product");
                 throw;
             }
         }
@@ -65,10 +80,14 @@ namespace MyShop.Application.Services
             {
                 var product = await _productRepository.GetProduct(id);
                 if (product != null)
+                {
+                    _logger.LogInformation($"Deleting product {product.ProductId}");
                     await _productRepository.DeleteProduct(product);
+                }
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error deleting product");
                 throw;
             }
         }
