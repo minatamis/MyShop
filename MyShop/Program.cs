@@ -25,12 +25,15 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-Log.Logger = new LoggerConfiguration()
-    .ReadFrom.Configuration(builder.Configuration)
-    .Enrich.FromLogContext()
-    .CreateLogger();
+//Log.Logger = new LoggerConfiguration()
+//    .ReadFrom.Configuration(builder.Configuration)
+//    .Enrich.FromLogContext()
+//    .CreateLogger();
 
-builder.Host.UseSerilog();
+builder.Host.UseSerilog(
+    (context, configuration) => configuration
+    .ReadFrom.Configuration(context.Configuration)
+    );
 
 var app = builder.Build();
 
