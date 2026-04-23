@@ -1,4 +1,4 @@
-﻿namespace MyShop.Domain.Entities
+﻿namespace MyShop.Application.DTOs
 {
     public record Response<T>(bool success, T? data, string? message, IEnumerable<string>? errors)
     {

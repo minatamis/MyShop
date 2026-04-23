@@ -9,3 +9,15 @@ C:\Repos\practice\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.dll
 C:\Repos\practice\MyShop\MyShop.Domain\obj\Debug\net10.0\refint\MyShop.Domain.dll
 C:\Repos\practice\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.pdb
 C:\Repos\practice\MyShop\MyShop.Domain\obj\Debug\net10.0\ref\MyShop.Domain.dll
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\bin\Debug\net10.0\MyShop.Domain.deps.json
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\bin\Debug\net10.0\MyShop.Domain.dll
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\bin\Debug\net10.0\MyShop.Domain.pdb
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.AssemblyInfoInputs.cache
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.AssemblyInfo.cs
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.sourcelink.json
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.dll
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\refint\MyShop.Domain.dll
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\MyShop.Domain.pdb
+C:\Users\jemuel.cebuano\Documents\GitHub\MyShop\MyShop.Domain\obj\Debug\net10.0\ref\MyShop.Domain.dll

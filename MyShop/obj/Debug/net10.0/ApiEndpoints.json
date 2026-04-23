@@ -1,8 +1,112 @@
 [
   {
+    "ContainingType": "MyShop.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "MyShop.Application.DTOs.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyShop.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logoutRequestDto",
+        "Type": "MyShop.Application.DTOs.LogoutRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyShop.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "Auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshRequestDto",
+        "Type": "MyShop.Application.DTOs.RefreshRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyShop.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "MyShop.Application.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MyShop.Controllers.ItemController",
     "Method": "AddItem",
-    "RelativePath": "my-shop/item/add-item",
+    "RelativePath": "Item/add-item",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -15,7 +119,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,7 +132,7 @@
   {
     "ContainingType": "MyShop.Controllers.ItemController",
     "Method": "DeleteItem",
-    "RelativePath": "my-shop/item/delete-item",
+    "RelativePath": "Item/delete-item",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -41,7 +145,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -54,7 +158,7 @@
   {
     "ContainingType": "MyShop.Controllers.ItemController",
     "Method": "EditItem",
-    "RelativePath": "my-shop/item/edit-item",
+    "RelativePath": "Item/edit-item",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -67,7 +171,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -80,7 +184,7 @@
   {
     "ContainingType": "MyShop.Controllers.ItemController",
     "Method": "GetItemById",
-    "RelativePath": "my-shop/item/get-item",
+    "RelativePath": "Item/get-item",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -93,7 +197,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[MyShop.Domain.Entities.Item, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[MyShop.Domain.Entities.Item, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -106,14 +210,14 @@
   {
     "ContainingType": "MyShop.Controllers.ItemController",
     "Method": "GetItemList",
-    "RelativePath": "my-shop/item/get-item-list",
+    "RelativePath": "Item/get-item-list",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Item, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Item, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -126,7 +230,7 @@
   {
     "ContainingType": "MyShop.Controllers.OrderController",
     "Method": "AddOrder",
-    "RelativePath": "my-shop/order/add-order",
+    "RelativePath": "Order/add-order",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -139,7 +243,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -152,7 +256,7 @@
   {
     "ContainingType": "MyShop.Controllers.OrderController",
     "Method": "DeleteOrder",
-    "RelativePath": "my-shop/order/delete-order",
+    "RelativePath": "Order/delete-order",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -165,7 +269,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -178,7 +282,7 @@
   {
     "ContainingType": "MyShop.Controllers.OrderController",
     "Method": "EditOrder",
-    "RelativePath": "my-shop/order/edit-order",
+    "RelativePath": "Order/edit-order",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -191,7 +295,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -204,7 +308,7 @@
   {
     "ContainingType": "MyShop.Controllers.OrderController",
     "Method": "GetOrderById",
-    "RelativePath": "my-shop/order/get-order",
+    "RelativePath": "Order/get-order",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -217,7 +321,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[MyShop.Domain.Entities.Order, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[MyShop.Domain.Entities.Order, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -230,14 +334,14 @@
   {
     "ContainingType": "MyShop.Controllers.OrderController",
     "Method": "GetOrderList",
-    "RelativePath": "my-shop/order/get-order-list",
+    "RelativePath": "Order/get-order-list",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Order, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Order, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -250,7 +354,7 @@
   {
     "ContainingType": "MyShop.Controllers.ProductController",
     "Method": "AddProduct",
-    "RelativePath": "my-shop/product/add-product",
+    "RelativePath": "Product/add-product",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -263,7 +367,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -276,7 +380,7 @@
   {
     "ContainingType": "MyShop.Controllers.ProductController",
     "Method": "DeleteProduct",
-    "RelativePath": "my-shop/product/delete-product",
+    "RelativePath": "Product/delete-product",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -289,7 +393,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -302,7 +406,7 @@
   {
     "ContainingType": "MyShop.Controllers.ProductController",
     "Method": "EditProduct",
-    "RelativePath": "my-shop/product/edit-product",
+    "RelativePath": "Product/edit-product",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -315,7 +419,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -328,7 +432,7 @@
   {
     "ContainingType": "MyShop.Controllers.ProductController",
     "Method": "GetProductById",
-    "RelativePath": "my-shop/product/get-product",
+    "RelativePath": "Product/get-product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -341,7 +445,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[MyShop.Domain.Entities.Product, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[MyShop.Domain.Entities.Product, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -354,14 +458,14 @@
   {
     "ContainingType": "MyShop.Controllers.ProductController",
     "Method": "GetProductList",
-    "RelativePath": "my-shop/product/get-product-list",
+    "RelativePath": "Product/get-product-list",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "MyShop.Domain.Entities.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Product, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "MyShop.Application.DTOs.Response\u00601[[System.Collections.Generic.List\u00601[[MyShop.Domain.Entities.Product, MyShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

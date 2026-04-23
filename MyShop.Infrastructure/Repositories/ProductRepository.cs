@@ -11,7 +11,7 @@ namespace MyShop.Infrastructure.Repositories
     public class ProductRepository : IProductRepository
     {
         private readonly AppDbContext _context;
-        private readonly DbSet<Product> _products;
+        protected readonly DbSet<Product> _products;
         public ProductRepository(AppDbContext context)
         {
             _context = context;

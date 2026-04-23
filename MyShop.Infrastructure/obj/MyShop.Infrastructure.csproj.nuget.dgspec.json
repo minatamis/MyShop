@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\practice\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj": {}
+    "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\practice\\MyShop\\MyShop.Application\\MyShop.Application.csproj": {
+    "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\practice\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
+        "projectUniqueName": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
         "projectName": "MyShop.Application",
-        "projectPath": "C:\\Repos\\practice\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
+        "projectPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
         "packagesPath": "C:\\Users\\jemuel.cebuano\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\practice\\MyShop\\MyShop.Application\\obj\\",
+        "outputPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,10 +33,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Repos\\practice\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj": {
-                "projectPath": "C:\\Repos\\practice\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj"
+              "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj"
               }
             }
           }
@@ -55,11 +56,24 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[10.0.5, )"
+              "version": "[10.0.7, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.17.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.17.0, )"
             }
           },
           "imports": [
@@ -78,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -356,14 +370,14 @@
         }
       }
     },
-    "C:\\Repos\\practice\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj": {
+    "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\practice\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
         "projectName": "MyShop.Domain",
-        "projectPath": "C:\\Repos\\practice\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
+        "projectPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
         "packagesPath": "C:\\Users\\jemuel.cebuano\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\practice\\MyShop\\MyShop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -385,6 +399,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -403,6 +418,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -420,7 +436,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -698,14 +714,14 @@
         }
       }
     },
-    "C:\\Repos\\practice\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj": {
+    "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\practice\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
         "projectName": "MyShop.Infrastructure",
-        "projectPath": "C:\\Repos\\practice\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\jemuel.cebuano\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\practice\\MyShop\\MyShop.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -727,10 +743,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Repos\\practice\\MyShop\\MyShop.Application\\MyShop.Application.csproj": {
-                "projectPath": "C:\\Repos\\practice\\MyShop\\MyShop.Application\\MyShop.Application.csproj"
+              "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj": {
+                "projectPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj"
               }
             }
           }
@@ -749,17 +766,18 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.5, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[10.0.5, )"
+              "version": "[10.0.7, )"
             }
           },
           "imports": [
@@ -778,7 +796,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

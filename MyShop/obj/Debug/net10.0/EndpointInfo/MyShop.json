@@ -1,11 +1,203 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "MyShop",
-    "version": "1.0"
+    "title": "MyShop API",
+    "version": "v1"
   },
   "paths": {
-    "/my-shop/item/get-item-list": {
+    "/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Auth/refresh": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Item/get-item-list": {
       "get": {
         "tags": [
           "Item"
@@ -34,7 +226,7 @@
         }
       }
     },
-    "/my-shop/item/get-item": {
+    "/Item/get-item": {
       "get": {
         "tags": [
           "Item"
@@ -73,7 +265,7 @@
         }
       }
     },
-    "/my-shop/item/add-item": {
+    "/Item/add-item": {
       "post": {
         "tags": [
           "Item"
@@ -121,7 +313,7 @@
         }
       }
     },
-    "/my-shop/item/edit-item": {
+    "/Item/edit-item": {
       "put": {
         "tags": [
           "Item"
@@ -169,7 +361,7 @@
         }
       }
     },
-    "/my-shop/item/delete-item": {
+    "/Item/delete-item": {
       "delete": {
         "tags": [
           "Item"
@@ -208,7 +400,7 @@
         }
       }
     },
-    "/my-shop/order/get-order-list": {
+    "/Order/get-order-list": {
       "get": {
         "tags": [
           "Order"
@@ -237,7 +429,7 @@
         }
       }
     },
-    "/my-shop/order/get-order": {
+    "/Order/get-order": {
       "get": {
         "tags": [
           "Order"
@@ -276,7 +468,7 @@
         }
       }
     },
-    "/my-shop/order/add-order": {
+    "/Order/add-order": {
       "post": {
         "tags": [
           "Order"
@@ -324,7 +516,7 @@
         }
       }
     },
-    "/my-shop/order/edit-order": {
+    "/Order/edit-order": {
       "put": {
         "tags": [
           "Order"
@@ -372,7 +564,7 @@
         }
       }
     },
-    "/my-shop/order/delete-order": {
+    "/Order/delete-order": {
       "delete": {
         "tags": [
           "Order"
@@ -411,7 +603,7 @@
         }
       }
     },
-    "/my-shop/product/get-product-list": {
+    "/Product/get-product-list": {
       "get": {
         "tags": [
           "Product"
@@ -440,7 +632,7 @@
         }
       }
     },
-    "/my-shop/product/get-product": {
+    "/Product/get-product": {
       "get": {
         "tags": [
           "Product"
@@ -479,7 +671,7 @@
         }
       }
     },
-    "/my-shop/product/add-product": {
+    "/Product/add-product": {
       "post": {
         "tags": [
           "Product"
@@ -527,7 +719,7 @@
         }
       }
     },
-    "/my-shop/product/edit-product": {
+    "/Product/edit-product": {
       "put": {
         "tags": [
           "Product"
@@ -575,7 +767,7 @@
         }
       }
     },
-    "/my-shop/product/delete-product": {
+    "/Product/delete-product": {
       "delete": {
         "tags": [
           "Product"
@@ -688,6 +880,34 @@
             "items": {
               "type": "string"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequestDto": {
+        "required": [
+          "password",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "userName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LogoutRequestDto": {
+        "type": "object",
+        "properties": {
+          "refreshToken": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -855,10 +1075,80 @@
           }
         },
         "additionalProperties": false
+      },
+      "RefreshRequestDto": {
+        "type": "object",
+        "properties": {
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterDto": {
+        "required": [
+          "password",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "userName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 8,
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StringResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "data": {
+            "type": "string",
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter JWT Token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
       }
     }
   },
+  "security": [
+    { }
+  ],
   "tags": [
+    {
+      "name": "Auth"
+    },
     {
       "name": "Item"
     },

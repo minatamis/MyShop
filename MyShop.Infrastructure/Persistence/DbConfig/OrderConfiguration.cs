@@ -12,14 +12,14 @@ namespace MyShop.Infrastructure.Persistence.DbConfig
         public void Configure(EntityTypeBuilder<Order> builder)
         {
             builder.ToTable("Orders");
-            builder.HasKey(p => p.OrderId);
-            builder.Property(p => p.OrderAmount)
+            builder.HasKey(o => o.OrderId);
+            builder.Property(o => o.OrderAmount)
                 .HasColumnType("decimal(18,2)");
-            builder.Property(p => p.OrderStatus)
+            builder.Property(o => o.OrderStatus)
                 .IsRequired()
                 .HasMaxLength(100);
-            builder.Property(p => p.CreatedAt);
-            builder.HasIndex(p => p.CreatedAt)
+            builder.Property(o => o.CreatedAt);
+            builder.HasIndex(o => o.CreatedAt)
                 .IsDescending();
         }
     }

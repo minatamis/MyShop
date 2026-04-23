@@ -3,56 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B451603-0B0D-4DA7-9FA7-2E834999D43F}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop.infrastructure\\myshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7B451603-0B0D-4DA7-9FA7-2E834999D43F}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\myshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2408457-CAC9-4E35-B72A-ADC863A2FB76}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop.application\\myshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D2408457-CAC9-4E35-B72A-ADC863A2FB76}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\myshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73EE74F-B57B-40CD-BD91-A4A2EEF66102}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop.domain\\myshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E73EE74F-B57B-40CD-BD91-A4A2EEF66102}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\myshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\models\\base\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\models\\base\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|c:\\users\\jemuel.cebuano\\documents\\github\\myshop\\myshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D7CDB837-3CFF-DC06-32A2-78E2AD408767}|MyShop\\MyShop.csproj|solutionrelative:myshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,53 +31,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyShop.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
-              "RelativeToolTip": "MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-31T00:40:52.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyShop.Domain",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
-              "RelativeDocumentMoniker": "MyShop.Domain\\MyShop.Domain.csproj",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Domain\\MyShop.Domain.csproj",
-              "RelativeToolTip": "MyShop.Domain\\MyShop.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-31T00:40:16.157Z",
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ItemController.cs*",
+              "RelativeToolTip": "MyShop\\Controllers\\ItemController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:23:35.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyShop.Application",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
-              "RelativeDocumentMoniker": "MyShop.Application\\MyShop.Application.csproj",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
-              "RelativeToolTip": "MyShop.Application\\MyShop.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-31T00:39:21.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Response.cs",
-              "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Response.cs",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Response.cs",
-              "RelativeToolTip": "MyShop\\Models\\Base\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "MyShop\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:04:00.705Z"
+              "WhenOpened": "2026-04-23T06:23:00.151Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -121,111 +60,25 @@
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "MyShop\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "MyShop\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "MyShop\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T01:00:22.925Z",
+              "WhenOpened": "2026-04-23T06:15:37.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Product.cs",
-              "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Product.cs",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Product.cs",
-              "RelativeToolTip": "MyShop\\Models\\Base\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:16:45.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "MyShop\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "MyShop\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T01:00:13.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Program.cs",
               "RelativeDocumentMoniker": "MyShop\\Program.cs",
               "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Program.cs",
               "RelativeToolTip": "MyShop\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T00:54:58.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ItemController.cs",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ItemController.cs",
-              "RelativeDocumentMoniker": "MyShop\\Controllers\\ItemController.cs",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Controllers\\ItemController.cs",
-              "RelativeToolTip": "MyShop\\Controllers\\ItemController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAwwFEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:13:45.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Order.cs",
-              "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Order.cs",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Order.cs",
-              "RelativeToolTip": "MyShop\\Models\\Base\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:16:47.397Z",
+              "WhenOpened": "2026-04-22T08:36:50.27Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Item.cs",
-              "RelativeDocumentMoniker": "MyShop\\Models\\Base\\Item.cs",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\Models\\Base\\Item.cs",
-              "RelativeToolTip": "MyShop\\Models\\Base\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:16:48.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.json",
-              "RelativeDocumentMoniker": "MyShop\\appsettings.json",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.json",
-              "RelativeToolTip": "MyShop\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-27T05:54:00.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "MyShop\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\jemuel.cebuano\\Documents\\GitHub\\MyShop\\MyShop\\appsettings.Development.json",
-              "RelativeToolTip": "MyShop\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-27T05:53:58.563Z"
             }
           ]
         }

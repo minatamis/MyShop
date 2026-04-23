@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyShop.Domain.Entities;
+using MyShop.Application.DTOs;
 using MyShop.Application.Interfaces.IServices;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyShop.Controllers
 {
     [ApiController]
-    [Route("my-shop/item")]
+    [Route("[controller]")]
+    //[Authorize]
     public class ItemController : Controller
     {
         private readonly IItemService _itemService;
@@ -15,8 +18,7 @@ namespace MyShop.Controllers
             _itemService = itemService;
             _logger = logger;
         }
-        [HttpGet]
-        [Route("get-item-list")]
+        [HttpGet("get-item-list")]
         public async Task<ActionResult<Response<List<Item>>>> GetItemList()
         {
             var itemList = await _itemService.GetItemList();
@@ -39,8 +41,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<List<Item>>.Fail(ex.ToString()));
             }
         }
-        [HttpGet]
-        [Route("get-item")]
+        [HttpGet("get-item")]
         public async Task<ActionResult<Response<Item>>> GetItemById(int id)
         {
             var item = await _itemService.GetItemById(id);
@@ -63,8 +64,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<Item>.Fail(ex.ToString()));
             }
         }
-        [HttpPost]
-        [Route("add-item")]
+        [HttpPost("add-item")]
         public async Task<ActionResult<Response<object>>> AddItem(Item item)
         {
             try
@@ -79,8 +79,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
-        [HttpPut]
-        [Route("edit-item")]
+        [HttpPut("edit-item")]
         public async Task<ActionResult<Response<object>>> EditItem(Item item)
         {
             try
@@ -95,8 +94,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
-        [HttpDelete]
-        [Route("delete-item")]
+        [HttpDelete("delete-item")]
         public async Task<ActionResult<Response<object>>> DeleteItem(int id)
         {
             try

@@ -11,7 +11,7 @@ namespace MyShop.Infrastructure.Repositories
     public class OrderRepository : IOrderRepository
     {
         private readonly AppDbContext _context;
-        private readonly DbSet<Order> _orders;
+        protected readonly DbSet<Order> _orders;
         public OrderRepository(AppDbContext context)
         {
             _context = context;

@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyShop.Domain.Entities;
+using MyShop.Application.DTOs;
 using MyShop.Application.Interfaces.IServices;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyShop.Controllers
 {
     [ApiController]
-    [Route("my-shop/product")]
+    [Route("[controller]")]
+    //[Authorize]
     public class ProductController : Controller
     {
         private readonly IProductService _productService;
@@ -15,8 +18,7 @@ namespace MyShop.Controllers
             _productService = productService;
             _logger = logger;
         }
-        [HttpGet]
-        [Route("get-product-list")]
+        [HttpGet("get-product-list")]
         public async Task<ActionResult<Response<List<Product>>>> GetProductList()
         {
             var productList = await _productService.GetProductList();
@@ -39,8 +41,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<List<Product>>.Fail(ex.ToString()));
             }
         }
-        [HttpGet]
-        [Route("get-product")]
+        [HttpGet("get-product")]
         public async Task<ActionResult<Response<Product>>> GetProductById(int id)
         {
             var product = await _productService.GetProductById(id);
@@ -63,8 +64,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<Product>.Fail(ex.ToString()));
             }
         }
-        [HttpPost]
-        [Route("add-product")]
+        [HttpPost("add-product")]
         public async Task<ActionResult<Response<object>>> AddProduct(Product product)
         {
             try
@@ -79,8 +79,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
-        [HttpPut]
-        [Route("edit-product")]
+        [HttpPut("edit-product")]
         public async Task<ActionResult<Response<object>>> EditProduct(Product product)
         {
             try
@@ -95,8 +94,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
-        [HttpDelete]
-        [Route("delete-product")]
+        [HttpDelete("delete-product")]
         public async Task<ActionResult<Response<object>>> DeleteProduct(int id)
         {
             try

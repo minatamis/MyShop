@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyShop.Domain.Entities;
+using MyShop.Application.DTOs;
 using MyShop.Application.Interfaces.IServices;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyShop.Controllers
 {
     [ApiController]
-    [Route("my-shop/order")]
+    [Route("[controller]")]
+    //[Authorize]
     public class OrderController : Controller
     {
         private readonly IOrderService _orderService;
@@ -15,8 +18,7 @@ namespace MyShop.Controllers
             _orderService = orderService;
             _logger = logger;
         }
-        [HttpGet]
-        [Route("get-order-list")]
+        [HttpGet("get-order-list")]
         public async Task<ActionResult<Response<List<Order>>>> GetOrderList()
         {
             var orderList = await _orderService.GetOrderList();
@@ -39,8 +41,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<List<Order>>.Fail(ex.ToString()));
             }
         }
-        [HttpGet]
-        [Route("get-order")]
+        [HttpGet("get-order")]
         public async Task<ActionResult<Response<Order>>> GetOrderById(int id)
         {
             var order = await _orderService.GetOrderById(id);
@@ -63,8 +64,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<Order>.Fail(ex.ToString()));
             }
         }
-        [HttpPost]
-        [Route("add-order")]
+        [HttpPost("add-order")]
         public async Task<ActionResult<Response<object>>> AddOrder(Order order)
         {
             try
@@ -79,8 +79,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
-        [HttpPut]
-        [Route("edit-order")]
+        [HttpPut("edit-order")]
         public async Task<ActionResult<Response<object>>> EditOrder(Order order)
         {
             try
@@ -95,8 +94,7 @@ namespace MyShop.Controllers
                 return BadRequest(Response<object>.Fail(ex.ToString()));
             }
         }
-        [HttpDelete]
-        [Route("delete-order")]
+        [HttpDelete("delete-order")]
         public async Task<ActionResult<Response<object>>> DeleteOrder(int id)
         {
             try

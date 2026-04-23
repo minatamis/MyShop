@@ -12,13 +12,13 @@ namespace MyShop.Infrastructure.Persistence.DbConfig
         public void Configure(EntityTypeBuilder<Item> builder)
         {
             builder.ToTable("Items");
-            builder.HasKey(p => p.ItemId);
-            builder.Property(p => p.ItemName)
+            builder.HasKey(i => i.ItemId);
+            builder.Property(i => i.ItemName)
                 .IsRequired()
                 .HasMaxLength(100);
-            builder.Property(p => p.ProductId);
-            builder.Property(p => p.ItemQuantity);
-            builder.HasIndex(p => p.ItemName);
+            builder.Property(i => i.ProductId);
+            builder.Property(i => i.ItemQuantity);
+            builder.HasIndex(i => i.ItemName);
         }
     }
 }
