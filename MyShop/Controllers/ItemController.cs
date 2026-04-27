@@ -8,7 +8,7 @@ namespace MyShop.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    //[Authorize]
+    [Authorize]
     public class ItemController : Controller
     {
         private readonly IItemService _itemService;
@@ -19,6 +19,7 @@ namespace MyShop.Controllers
             _logger = logger;
         }
         [HttpGet("get-item-list")]
+        [Authorize(Roles = "User, Admin")]
         public async Task<ActionResult<Response<List<Item>>>> GetItemList()
         {
             var itemList = await _itemService.GetItemList();
@@ -42,6 +43,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpGet("get-item")]
+        [Authorize(Roles = "User, Admin")]
         public async Task<ActionResult<Response<Item>>> GetItemById(int id)
         {
             var item = await _itemService.GetItemById(id);
@@ -65,6 +67,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpPost("add-item")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Response<object>>> AddItem(Item item)
         {
             try
@@ -80,6 +83,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpPut("edit-item")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Response<object>>> EditItem(Item item)
         {
             try
@@ -95,6 +99,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpDelete("delete-item")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Response<object>>> DeleteItem(int id)
         {
             try

@@ -1137,13 +1137,15 @@
       "Bearer": {
         "type": "http",
         "description": "Enter JWT Token",
-        "scheme": "bearer",
+        "scheme": "Bearer",
         "bearerFormat": "JWT"
       }
     }
   },
   "security": [
-    { }
+    {
+      "Bearer": [ ]
+    }
   ],
   "tags": [
     {

@@ -8,7 +8,7 @@ namespace MyShop.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    //[Authorize]
+    [Authorize]
     public class OrderController : Controller
     {
         private readonly IOrderService _orderService;
@@ -19,6 +19,7 @@ namespace MyShop.Controllers
             _logger = logger;
         }
         [HttpGet("get-order-list")]
+        [Authorize(Roles = "User, Admin")]
         public async Task<ActionResult<Response<List<Order>>>> GetOrderList()
         {
             var orderList = await _orderService.GetOrderList();
@@ -42,6 +43,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpGet("get-order")]
+        [Authorize(Roles = "User, Admin")]
         public async Task<ActionResult<Response<Order>>> GetOrderById(int id)
         {
             var order = await _orderService.GetOrderById(id);
@@ -65,6 +67,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpPost("add-order")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Response<object>>> AddOrder(Order order)
         {
             try
@@ -80,6 +83,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpPut("edit-order")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Response<object>>> EditOrder(Order order)
         {
             try
@@ -95,6 +99,7 @@ namespace MyShop.Controllers
             }
         }
         [HttpDelete("delete-order")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Response<object>>> DeleteOrder(int id)
         {
             try
